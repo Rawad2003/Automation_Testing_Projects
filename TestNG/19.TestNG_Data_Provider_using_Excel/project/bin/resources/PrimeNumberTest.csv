@@ -1,0 +1,6 @@
+Description,Number,ExpectedResult
+Small prime,3,TRUE
+zero,0,FALSE
+Negative number,-5,FALSE
+Composite,9,FALSE
+Large Prime,97,FALSE
