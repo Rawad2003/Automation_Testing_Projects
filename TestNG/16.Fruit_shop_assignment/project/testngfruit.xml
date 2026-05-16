@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FruitShopSuite">
+	<test name="FruitShopTest">
+		<classes>
+			<class name="fruitpack.FruitShopTest">
+				<!-- there is no need to write all the methods, by default it
+				executes all of them-->
+			</class>
+		</classes>
+	</test>
+
+</suite>
