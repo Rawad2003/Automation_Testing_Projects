@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAnnotations">
+	<test name="Before/After Test/Class">
+		<classes>
+			<class name="mainpack.TestNGAnnotations">
+				<methods>
+					<include name="beforeTest" />
+					<include name="beforeClass" />
+					<include name="test" />
+					<include name="afertTest" />
+					<include name="afterClass" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

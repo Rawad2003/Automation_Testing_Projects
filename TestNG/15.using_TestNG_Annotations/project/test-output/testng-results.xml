@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="TestAnnotations" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="Before/After Test/Class" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="51">
+      <class name="mainpack.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:mainpack.TestNGAnnotations@5c6648b0]" started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="beforeTest" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mainpack.TestNGAnnotations@5c6648b0]" started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="beforeClass" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:mainpack.TestNGAnnotations@5c6648b0]" started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="test" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:mainpack.TestNGAnnotations@5c6648b0]" started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="afterClass" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:mainpack.TestNGAnnotations@5c6648b0]" started-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" name="afterTest" finished-at="٢٠٢٦-٠٤-٢٧T١٥:٥٣:٥٣ IDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mainpack.TestNGAnnotations -->
+    </test> <!-- Before/After Test/Class -->
+  </suite> <!-- TestAnnotations -->
+</testng-results>
