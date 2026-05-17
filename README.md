@@ -1,2 +1,2 @@
-# Solving_TestNG_questions
-there are some simple questions solved
+# Automation_Testing_Projects
+here are all the projects and assignments that I solved during the bootcamp
