@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class dateTest extends BaseSetupManager {
+	// https://jqueryui.com/datepicker/
 	@Test
 	public void dateTesting() {
 		WebElement dateFrame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));

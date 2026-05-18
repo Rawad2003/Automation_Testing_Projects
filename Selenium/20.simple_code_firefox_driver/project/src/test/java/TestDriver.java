@@ -12,9 +12,13 @@ public class TestDriver extends BaseSetupManager {
 
 		// this is the test
 //		driver.get("https://www.google.com/");
+		TestDriver t = new TestDriver();
+		t.initDriver();
 		System.out.println("Title: " + driver.getTitle());
 		driver.manage().window().maximize();
-
+		if (driver != null) {
+			driver.quit();
+		}
 		// this will be written in after test method
 //		driver.quit();
 	}

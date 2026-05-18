@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٥ IDT" name="Default suite" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" duration-ms="1030">
+  <suite started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="Default suite" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="344">
     <groups>
     </groups>
-    <test started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٥ IDT" name="Default test" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" duration-ms="1030">
+    <test started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="Default test" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="344">
       <class name="com.example.xpath_locator.TestXPathLocators">
-        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@6a78afa0]" started-at="٢٠٢٦-٠٥-١٠T١٦:١٦:٥٨ IDT" name="initDriver" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٥ IDT" duration-ms="17739" status="PASS">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@5bda8e08]" started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٢٣ IDT" name="initDriver" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="9847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method signature="XPathLocatorByClassName()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@6a78afa0]" started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" name="XPathLocatorByClassName" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" duration-ms="318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- XPathLocatorByClassName -->
-        <test-method signature="XPathLocatorByID()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@6a78afa0]" started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" name="XPathLocatorByID" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" duration-ms="331" status="PASS">
+        <test-method signature="XPathLocatorByID()[pri:1, instance:com.example.xpath_locator.TestXPathLocators@5bda8e08]" started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="XPathLocatorByID" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- XPathLocatorByID -->
-        <test-method signature="XPathLocatorByName()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@6a78afa0]" started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" name="XPathLocatorByName" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٦ IDT" duration-ms="258" status="PASS">
+        <test-method signature="XPathLocatorByName()[pri:2, instance:com.example.xpath_locator.TestXPathLocators@5bda8e08]" started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="XPathLocatorByName" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- XPathLocatorByName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@6a78afa0]" started-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٧ IDT" name="tearDown" finished-at="٢٠٢٦-٠٥-١٠T١٦:١٧:١٧ IDT" duration-ms="247" status="PASS">
+        <test-method signature="XPathLocatorByClassName()[pri:3, instance:com.example.xpath_locator.TestXPathLocators@5bda8e08]" started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="XPathLocatorByClassName" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XPathLocatorByClassName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.xpath_locator.TestXPathLocators@5bda8e08]" started-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" name="tearDown" finished-at="٢٠٢٦-٠٥-١٨T١٣:٤٧:٣٣ IDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

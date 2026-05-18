@@ -5,15 +5,22 @@
 	<groupId>com.example</groupId>
 	<artifactId>23_WebElement_using_ID</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
-	</properties>
 	<dependencies>
+		<!-- Source:
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>6.3.2</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- Source:
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.20.0</version>
+			<version>4.38.0</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -25,14 +32,6 @@
 			<groupId>com.automation.axsos</groupId>
 			<artifactId>20.simple.code.Firefox.Driver</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<!-- Source:
-		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>6.2.0</version>
-			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>

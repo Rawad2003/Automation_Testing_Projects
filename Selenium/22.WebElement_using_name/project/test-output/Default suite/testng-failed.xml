@@ -5,8 +5,8 @@
     <classes>
       <class name="locators.ByName">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="initDriver"/>
           <include name="findElementsByName"/>
         </methods>
       </class> <!-- locators.ByName -->

@@ -5,22 +5,21 @@
 	<groupId>com.assignment</groupId>
 	<artifactId>34_ButtonEnabledDisabled</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<properties>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
-	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>4.20.0</version>
-		</dependency>
 		<!-- Source:
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>6.2.0</version>
+			<version>6.3.2</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- Source:
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.38.0</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>

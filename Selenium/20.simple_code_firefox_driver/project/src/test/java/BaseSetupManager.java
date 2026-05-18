@@ -1,3 +1,5 @@
+
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -44,7 +46,7 @@ public class BaseSetupManager {
 
             case 2:
                 System.out.println("[Launcher] Setting up Edge driver...");
-                WebDriverManager.edgedriver().setup();
+//                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 System.out.println("[Launcher] Edge started successfully.");
                 break;
